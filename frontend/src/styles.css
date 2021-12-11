@@ -1,0 +1,79 @@
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+a.youtube {
+  color: #797b80;
+  padding-left: 80px;
+}
+
+a.facebook {
+  color: #797b80;
+  padding-left: 80px;
+}
+
+a.twitter {
+  color: #797b80;
+  padding-left: 80px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,500);
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+a.footerlinks{
+  color:#439D8A;
+  bottom:3px;
+}
+p.footertext{
+  color:#0077C5;
+  bottom:3px;
+}
+
+.App {
+	overflow: hidden;
+  background-color: #00a6a4;
+	width: 100%;
+}
+
+/* Links inside the navbar */
+.navItem {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.tab-list {  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid rgb(15, 15, 15);
+  border-width: 1px 1px 0 1px;
+  border-top-left-radius:20%;
+  border-top-right-radius:20%;
+
+}
